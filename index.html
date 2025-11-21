@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danilo Moura — Consultoria em TI</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Ícone WhatsApp -->
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</head>
+
+<body class="bg-gray-50">
+
+  <div class="min-h-screen p-6">
+    <main class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-md">
+      <header class="mb-8">
+        <h1 class="text-4xl font-bold">Danilo Moura — Consultoria em TI</h1>
+        <p class="text-sm opacity-70 mt-1">CNPJ: 00.000.000/0000-00</p>
+
+        <p class="mt-4 text-gray-700 leading-relaxed">
+          Sou consultor especializado em tecnologia, desenvolvimento de sistemas, infraestrutura,
+          automações e integração com IA. Atendo empresas e profissionais que precisam de
+          orientação técnica, desenvolvimento sob demanda ou suporte estratégico.
+        </p>
+      </header>
+
+      <section class="space-y-8">
+        <div>
+          <h2 class="text-2xl font-semibold mb-3">Serviços</h2>
+          <ul class="list-disc ml-6 space-y-1 text-gray-700">
+            <li>Consultoria técnica em TI</li>
+            <li>Arquitetura de sistemas e aplicativos</li>
+            <li>Desenvolvimento de software e APIs</li>
+            <li>Integração de IA em processos e produtos</li>
+            <li>Sites, landing pages e sistemas web</li>
+            <li>Auxílio em implantação de infraestrutura (GCP, AWS, etc.)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-semibold mb-3">Contato</h2>
+          <p class="text-gray-700">Entre em contato para solicitar orçamento ou agendar uma conversa:</p>
+          <p class="mt-2 font-medium">📧 danilo@seuemail.com</p>
+          <p class="font-medium">📱 (00) 00000-0000</p>
+        </div>
+
+        <div>
+          <h2 class="text-2xl font-semibold mb-3">Sobre mim</h2>
+          <p class="text-gray-700 leading-relaxed">
+            Atuo há anos no setor de tecnologia, desenvolvimento e arquitetura de sistemas.
+            Tenho experiência com aplicativos, plataformas de grande escala, cloud,
+            automações e projetos complexos envolvendo IA e dados. Meu foco é ajudar
+            empresas a tomarem decisões técnicas corretas, economizar recursos e
+            construir soluções eficientes.
+          </p>
+        </div>
+      </section>
+
+      <footer class="mt-12 text-xs text-gray-500 text-center">
+        © <span id="year"></span> Danilo Moura — Consultoria em Tecnologia
+      </footer>
+    </main>
+  </div>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a
+    href="https://wa.me/5500000000000?text=Olá%20Danilo,%20gostaria%20de%20solicitar%20um%20orçamento"
+    class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    💬 <span class="font-semibold">WhatsApp</span>
+  </a>
+
+  <script>
+    // Ano atual automático
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
